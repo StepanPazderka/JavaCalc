@@ -47,7 +47,7 @@ public class Main {
         }
         firstNum = askQuestionAndReceiveFloat(scanner, "Type in first number");
         secondNum = askQuestionAndReceiveFloat(scanner, "Type in second number");
-
+        //This feels good
         switch(operation)
         {
             case "*": result = multiply(firstNum, secondNum); break;
