@@ -1,4 +1,4 @@
-package com.company;
+
 
 import java.util.*;
 
@@ -24,6 +24,11 @@ public class Main {
         return a-b;
     }
 
+    private static float askQuestionAndReceiveFloat(Scanner scanner, String question) {
+        System.out.println(question);
+        return scanner.nextFloat();
+    }
+
     public static void main(String[] args)
     {
         Scanner scanner;
@@ -40,11 +45,8 @@ public class Main {
                 System.out.println("Invalid operation");
             }
         }
-        System.out.println("Type in first number");
-        firstNum = scanner.nextFloat();
-
-        System.out.println("Type in second number");
-        secondNum = scanner.nextFloat();
+        firstNum = askQuestionAndReceiveFloat(scanner, "Type in first number");
+        secondNum = askQuestionAndReceiveFloat(scanner, "Type in second number");
 
         switch(operation)
         {
