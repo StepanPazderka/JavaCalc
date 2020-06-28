@@ -1,3 +1,10 @@
+/**
+ * This is console calculator app written in Java
+ *
+ * @author Stepan Pazderka
+ * @version 0.1
+ * */
+
 import java.util.*;
 import java.util.regex.Pattern;
 
@@ -28,6 +35,7 @@ public class Main {
         return scanner.nextFloat();
     }
 
+    /** This application does as a simple calculations in system console */
     public static void main(String[] args)
     {
         Scanner scanner;
