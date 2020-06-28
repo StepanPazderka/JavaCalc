@@ -8,16 +8,28 @@
 import java.util.*;
 import java.util.regex.Pattern;
 
+/**
+ * Calculator console application
+ * Main class
+ */
 public class Main {
     /**
-     * @param first number, second number
-     * @return multiplication result
-     * */
+     * Calculates multiplication of two numbers
+     * @param a
+     * @param b
+     * @return Result in float
+     */
     public static float multiply(float a, float b)
     {
         return a*b;
     }
 
+    /**
+     * Calculates division of two numbers
+     * @param a
+     * @param b
+     * @return Result in float
+     */
     public static float divide(float a, float b)
     {
         return a/b;
