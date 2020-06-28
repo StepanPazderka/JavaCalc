@@ -9,7 +9,10 @@ import java.util.*;
 import java.util.regex.Pattern;
 
 public class Main {
-
+    /**
+     * @param first number, second number
+     * @return multiplication result
+     * */
     public static float multiply(float a, float b)
     {
         return a*b;
