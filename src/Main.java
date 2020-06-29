@@ -35,11 +35,23 @@ public class Main {
         return a/b;
     }
 
+    /**
+     * Calculates addition of two numbers
+     * @param a
+     * @param b
+     * @return Result in float
+     */
     public static float addition(float a, float b)
     {
         return a+b;
     }
 
+    /**
+     * Calculates subtraction of two numbers
+     * @param a
+     * @param b
+     * @return Result in float
+     */
     public static float subtraction(float a, float b)
     {
         return a-b;
