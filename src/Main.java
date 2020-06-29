@@ -15,10 +15,10 @@ import java.util.regex.Pattern;
  */
 public class Main {
     /**
-     * Calculates multiplication of two numbers
-     * @param a
-     * @param b
-     * @return Result in float
+     * This method multiplies two operands together and returns result of the operation
+     * @param a first operand of the multiplication
+     * @param b second operand of the multiplication
+     * @return float Result in float
      */
     public static float multiply(float a, float b)
     {
@@ -60,8 +60,8 @@ public class Main {
 
     /**
      * Ask user a question and recieves a number
-     * @param a
-     * @param b
+     * @param scanner instance of a scanner class
+     * @param question Question in string to be printed into console before number is recieved from the user
      * @return Result in float
      */
     private static float askQuestionAndReceiveFloat(Scanner scanner, String question) {
