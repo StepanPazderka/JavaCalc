@@ -57,6 +57,12 @@ public class Main {
         return a-b;
     }
 
+    /**
+     * Ask user a question and recieves a number
+     * @param a
+     * @param b
+     * @return Result in float
+     */
     private static float askQuestionAndReceiveFloat(Scanner scanner, String question) {
         System.out.println(question);
         return scanner.nextFloat();
