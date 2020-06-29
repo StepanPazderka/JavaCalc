@@ -1,7 +1,6 @@
 import java.util.*;
 import java.util.regex.Pattern;
 
-
 /**
  * This is console calculator app written in Java
  *
