@@ -1,15 +1,12 @@
-/**
- * This is console calculator app written in Java
- *
- * @author Stepan Pazderka
- * @version 0.1
- * */
-
 import java.util.*;
 import java.util.regex.Pattern;
 
 
 /**
+ * This is console calculator app written in Java
+ *
+ * @author Stepan Pazderka
+ * @version 0.1
  * Calculator console application
  * Main class
  */
@@ -27,8 +24,8 @@ public class Main {
 
     /**
      * Calculates division of two numbers
-     * @param a
-     * @param b
+     * @param a first operand of the division
+     * @param b second operand of the division
      * @return Result in float
      */
     public static float divide(float a, float b)
@@ -38,8 +35,8 @@ public class Main {
 
     /**
      * Calculates addition of two numbers
-     * @param a
-     * @param b
+     * @param a first operand of the addition
+     * @param b second operand of the addition
      * @return Result in float
      */
     public static float addition(float a, float b)
@@ -49,8 +46,8 @@ public class Main {
 
     /**
      * Calculates subtraction of two numbers
-     * @param a
-     * @param b
+     * @param a first operand of the subtraction
+     * @param b second operand of the subtraction
      * @return Result in float
      */
     public static float subtraction(float a, float b)
@@ -59,7 +56,7 @@ public class Main {
     }
 
     /**
-     * Ask user a question and recieves a number
+     * Ask user a question and receives a number
      * @param scanner instance of a scanner class
      * @param question Question in string to be printed into console before number is recieved from the user
      * @return Result in float
