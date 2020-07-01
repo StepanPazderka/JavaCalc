@@ -1,3 +1,7 @@
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.io.File;
+import java.net.URL;
 import java.util.*;
 import java.util.regex.Pattern;
 
